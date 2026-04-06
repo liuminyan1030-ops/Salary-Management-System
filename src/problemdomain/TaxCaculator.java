@@ -1,6 +1,6 @@
 package problemdomain;
 
-public class TaxCaculator implements Taxable {
+public class TaxCalculator implements Taxable {
 	private double taxRate;
 	
 	public TaxCaculator(double taxRate) {
