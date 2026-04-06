@@ -311,7 +311,7 @@ public class EmployeeManager {
 				}
 
 				double salary = emp.calculateSalary();
-				TaxCaculator tc = new TaxCaculator(0.15);
+				TaxCalculator tc = new TaxCalculator(0.15);
 				double tax = tc.applyTax(salary);
 				double netPay = salary - tax;
 
